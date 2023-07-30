@@ -1,3 +1,3 @@
 # week5
 
-first comit
+first commit
