@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost-Italic-VariableFont_wght.ttf") format("ttf"),
+    url("../fonts/Jost-VariableFont_wght.ttf") format("ttf");
+}
+
+* {
+  font-family: Jost, Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+  width: 50vw;
+  margin: auto;
+}
+aside {
+  display: flex;
+  background-color: #ddeccb;
+  height: 300px;
+  align-self: flex-end;
+  align-items: flex-start;
+  padding: 10px 40px;
+}
+main {
+  background-color: #fff8e3;
+  height: 300px;
+  display: flex;
+  flex-grow: 1;
+  padding: 10px;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+footer,
+header {
+  background-color: #e0e0e0;
+}
+header {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.mains {
+  display: flex;
+  background-color: #feeab9;
+  height: 60px;
+  margin: 10px;
+
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footers {
+  display: flex;
+  background-color: #ffffff;
+  margin: 20px;
+  height: 60px;
+  padding: 10px;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  flex-grow: 1;
+  align-items: center;
+}
+.wrapper {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.top-align {
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.bottom-align {
+  display: flex;
+  width: 100%;
+  align-content: flex-end;
+  flex-direction: column;
+}
